@@ -1,0 +1,29 @@
+{
+  "name": "fontawesomepro",
+  "version": "0.0.1",
+  "description": "Font Awesome",
+  "main": "scss/fontawesome.scss",
+  "author": "Nguyen Thanh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nguyenthanh1995/fontawesomepro.git"
+  },
+  "keywords": [
+    "fontawesome",
+    "font-awesome-pro"
+  ],
+  "bugs": {
+    "url": "https://github.com/nguyenthanh1995/fontawesomepro/issues"
+  },
+  "homepage": "https://github.com/nguyenthanh1995/fontawesomepro#readme",
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
+  },
+  "dependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
